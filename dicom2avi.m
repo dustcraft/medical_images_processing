@@ -113,12 +113,31 @@ else
     end
 end
 
+pause(1);
+
+%frame rate
+prompt2 = {'frame rate:'};
+name2 = 'Enter frame rate of movie';
+numlines2 = 1;
+defAns2 = {'12'};
+Resize2 = 'on';%set dialogue box that can be tuned
+answer2 = inputdlg(prompt2,name2,numlines2,defAns2,Resize2);%create input interface
+
+rate = str2double(answer2{1});  
+if (isequal(isempty(rate),1)) || (isequal(isnan(rate),1)) || (rate <= 0)
+    disp('User does not enter any parameter');
+    errordlg('not a correct parameter entered, the program will exit','Error! Please enter right number');
+    error('Program exception');
+end
+
+pause(1);
+
 %% main
 %write to avi
 AviFileObj = VideoWriter(AviFile,Compression_mode); 
 
 %frame rate (the menber of class)
-AviFileObj.FrameRate = 12;  
+AviFileObj.FrameRate = rate;  
 %frame quality: Integer from 0 through 100. Only applies to objects associated with the Motion JPEG AVI and MPEG-4 profiles.
 %AviFileObj.Quality = 100;  %0-100
  
