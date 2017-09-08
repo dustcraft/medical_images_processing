@@ -54,12 +54,12 @@ end
 
 pause(1);
 
-prompt1 = {'save file name:'};%设置提示字符串
-name1 = 'Enter avi file name';%设置标题
-numlines1 = 1;%指定输入数据的行数
-defAns1 = {'Movie'};%设定默认值
-Resize1 = 'on';%设定对话框尺寸可调节
-answer1 = inputdlg(prompt1,name1,numlines1,defAns1,Resize1);%创建输入对话框
+prompt1 = {'save file name:'};
+name1 = 'Enter avi file name';
+numlines1 = 1;
+defAns1 = {'Movie'};
+Resize1 = 'on';
+answer1 = inputdlg(prompt1,name1,numlines1,defAns1,Resize1);
 
 pause(1);
 
