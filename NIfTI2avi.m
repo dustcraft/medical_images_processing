@@ -195,7 +195,7 @@ for k = 1 : n
             [X, map] = gray2ind(JpegImg, 256);
             Mov = im2frame(X,map);
         else
-            Mov = im2frame(JpegImg,MAP);
+            Mov = JpegImg;
         end
     else
         Mov = JpegImg;
