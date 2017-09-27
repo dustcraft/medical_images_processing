@@ -180,7 +180,8 @@ for k = 1 : ConvertFrameNum
     %uint16 to uint8
     M = mat2gray(Y);
     %resize to unified size
-    JpegImg = imresize(M,[wid,lent],'bicubic');
+    T = imresize(M,[wid,lent],'bicubic');
+    JpegImg = mat2gray(T);
     [l,m,n] = size(JpegImg);
     
     if (strcmp(Compression_mode,'Grayscale AVI'))
