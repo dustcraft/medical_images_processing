@@ -22,9 +22,9 @@ I `did not` optimize these functions yet, but more changes will be taken in the 
 The 002_S_0729 folder contains a original data (brainmask.mgz) which download from [ADNI database](http://adni.loni.usc.edu/ "Click to skip"), and some results, such as brainmask.nii, sample.mat and sample.bmp, to demonstrate the usage of my functions.
 You can use mgz_example.m to know basic usage of this program. <br>
 
-![](https://github.com/fuckcraft/medical_images_processing/tree/master/mgz_processing/002_S_0729/sample.bmp)
+![](https://github.com/fuckcraft/medical_images_processing/raw/master/mgz_processing/002_S_0729/sample.bmp)
 
 ### Note:
 I change mgz_processing.m function a lot. Its input parameter can only use mgz format, and output parameter can only use nii format. <br>
-The returned parameters: name (cell); file_details (structure); nii_data (structure); original_data (matrix) .
+The returned parameters: name (cell); file_details (structure); nii_data (structure); original_data (matrix) . <br>
 For the details, please see function and mgz_example.m.
