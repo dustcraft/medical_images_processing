@@ -1,8 +1,8 @@
 # Medical images processing
+----
 
 ## Medical file format to avi
 
-----
 ### 1.DICOM to AVI
 
 dicom2avi function (which is a matlab program) convert dicom file to avi. It needs third party function -natsortfiles function (see http://cn.mathworks.com/matlabcentral/fileexchange/34464-customizable-natural-order-sort ) ,and this function is compiled with matlab 2016a.
