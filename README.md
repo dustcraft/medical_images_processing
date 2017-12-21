@@ -16,7 +16,9 @@ NIfTI2avi.m function convert nii format file to avi or mp4 format. It needs thir
 ## MGZ Processing
 
 This folder contains several functions and files. <br>
-The source code downloaded from [Xiangrui Li's program](https://cn.mathworks.com/matlabcentral/fileexchange/42997-dicom-to-nifti-converter--nifti-tool-and-viewer "Click to show source code"). And I modify his code to my use, including nii_tool.m (where I delete save nii function, and add nii parameter to return.) and dicm2nii.m (where I rename it to mgz_processing.m ). <br>
+The source code downloaded from [Xiangrui Li's program](https://cn.mathworks.com/matlabcentral/fileexchange/42997-dicom-to-nifti-converter--nifti-tool-and-viewer "Click to show source code"). And I modify his code to my use, including nii_tool.m (where I delete save nii function, and add nii parameter to return.) and dicm2nii.m (where I rename it to mgz_processing.m, and change many functions ). Also,  due to decrease the function unit (only aim to extract mgz data.), I delete many functions and files from source code. <br>
+You can use mgz_example.m to know basic usage of this program. <br>
+
 
 
 ### Note:
