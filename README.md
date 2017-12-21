@@ -18,7 +18,7 @@ This folder contains several functions and files. <br>
 The source code downloaded from [Xiangrui Li's program](https://cn.mathworks.com/matlabcentral/fileexchange/42997-dicom-to-nifti-converter--nifti-tool-and-viewer "Click to show source code"). And I modify his code to my program, including nii_tool.m (where I delete save nii function, and add nii parameter to return.) and dicm2nii.m (where I rename it to mgz_processing.m, and change many functions ). Also,  due to decrease the function unit (only aim to extract mgz data.), I delete many functions and files from source code. <br>
 I `did not` optimize these functions yet, but more changes will be taken in the future. <br>
 
-The 002_S_0729 folder contains a original data (brainmask.mgz) which download from [ADNI database](http://adni.loni.usc.edu/ "Click to skip"), and some results, such as brainmask.nii, sample.mat and sample.bmp, to demonstrate the usage of my functions.
+The 002_S_0729 folder contains a original data (brainmask.mgz) which downloaded from [ADNI database](http://adni.loni.usc.edu/ "Click to skip"), and some results, such as brainmask.nii, sample.mat and sample.bmp, to demonstrate the usage of my functions.
 You can use mgz_example.m to know basic usage of this program. <br>
 
 ![Frame Sample](https://github.com/fuckcraft/medical_images_processing/raw/master/mgz_processing/002_S_0729/sample.bmp "Extract from original_data")
