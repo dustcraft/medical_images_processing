@@ -37,8 +37,8 @@ if (exist(new_direction,'file') == 2)
     delete(new_direction);
 end
 
-% if you get error, uncomment the line below.
 %parameters: old_fn, new_fn, [voxel_size], [verbose], [bg], [method]
+% if you get error, uncomment the line below.
 %reslice_nii(old_direction,new_direction,[], 1, [], 3);%for confirming nii format can be read by load_nii function, convert original file to new style 
 %nii = load_nii(new_direction);% uncomment this line, and comment the line below 
 nii = load_nii(old_direction);%to load NIFTI data to a structure: 
