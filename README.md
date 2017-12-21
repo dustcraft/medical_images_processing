@@ -21,7 +21,7 @@ I `did not` optimize these functions yet, but more changes will be taken in the 
 The 002_S_0729 folder contains a original data (brainmask.mgz) which downloaded from [ADNI database](http://adni.loni.usc.edu/ "Click to skip"), and some results, such as brainmask.nii, sample.mat and sample.bmp, to demonstrate the usage of my functions.
 You can use mgz_example.m to know basic usage of this program. <br>
 
-The image below is a frame of mgz data.
+The image above is a frame of mgz data.
 ![Frame Sample](https://github.com/fuckcraft/medical_images_processing/raw/master/mgz_processing/002_S_0729/sample.bmp "Extract from original_data")
 
 ### Note:
