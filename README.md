@@ -16,4 +16,4 @@ NIfTI2avi.m function convert nii format file to avi or mp4 format. It needs thir
 ## MGZ Processing
 
 This folder contains several functions and files. \<br>
-The source code downloaded from [Xiangrui Li's program](https://cn.mathworks.com/matlabcentral/fileexchange/42997-dicom-to-nifti-converter--nifti-tool-and-viewer)
+The source code downloaded from [Xiangrui Li's program](https://cn.mathworks.com/matlabcentral/fileexchange/42997-dicom-to-nifti-converter--nifti-tool-and-viewer "悬停显示")
