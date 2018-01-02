@@ -19,7 +19,7 @@ The source code downloaded from [Xiangrui Li's program](https://cn.mathworks.com
 I `did not` optimize these functions yet, but more changes will be taken in the future. <br>
 
 The 002_S_0729 folder contains a original datum (brainmask.mgz) which downloaded from [ADNI database](http://adni.loni.usc.edu/ "Click to skip"), and some results, such as brainmask.nii, sample.mat and sample.bmp.
-You can use mgz_example.m to know basic usage of this program. <br>
+You can use mgz_example.m to know the basic usage of this program. <br>
 
 The image above is a frame of mgz data.
 ![Frame Sample](https://github.com/fuckcraft/medical_images_processing/raw/master/mgz_processing/002_S_0729/sample.bmp "Extract from original_data")
