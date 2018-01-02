@@ -5,7 +5,7 @@
 
 ### 1.DICOM to AVI
 
-dicom2avi function (which is a matlab program) converts dicom file to avi. It needs third party function -natsortfiles function (see http://cn.mathworks.com/matlabcentral/fileexchange/34464-customizable-natural-order-sort ) ,and this function is compiled with matlab 2016a.
+dicom2avi function (which is a matlab program) converts dicom file to avi. It needs third party function -natsortfiles function (see http://cn.mathworks.com/matlabcentral/fileexchange/34464-customizable-natural-order-sort ) ,and this function is compiled by matlab 2016a.
 
 ### 2.NIFTI to AVI
 
